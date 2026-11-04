@@ -48,5 +48,30 @@ Available in ./Data, including:
   python run.py --do_eval --do_test --do_simple_test --do_complex_test --do_small_test --tune_tapas_after10k --load_model ../ckpt/model.pt --data_dir ../Data/TabFact_data
   ```
   
-## Contact
-For any questions, please send email to the author. 
+## Execution Screenshots
+
+### 1. Successful Imports and GPU Detection
+![Imports and GPU](screenshots/1-imports.png)
+
+### 2. Dataset Files
+![Dataset](screenshots/2-dataset.png)
+
+### 3. Model Checkpoint Files
+![Checkpoint](screenshots/3-checkpoint.png)
+
+### 4. Model Evaluation Progress
+![Evaluation](screenshots/4-evaluation.png)
+
+## Results
+
+The project was successfully set up and executed in Google Colab using a Tesla T4 GPU. The required Python libraries, dataset, and pretrained model checkpoint were loaded successfully. The evaluation process was initiated, and the model began processing the TabFact dataset.
+
+The project demonstrates how decomposition-based reasoning can be used to break down complex table-based statements into smaller steps and support fact verification using structured table data.
+
+**Note:** The evaluation was started, but the complete evaluation metrics were not obtained during the available execution time.
+
+## Conclusion
+
+This project explores decomposition-based reasoning for table-based fact verification. It demonstrates the use of machine learning models and structured datasets to analyse statements and verify facts from tables. The implementation provided practical experience in setting up a research project, managing datasets and pretrained models, using GPU resources, and executing Python-based machine learning code.
+
+Although the complete evaluation could not be finished, the project setup and initial execution were successful. Further execution can be carried out to obtain complete evaluation results and analyse the model's performance.

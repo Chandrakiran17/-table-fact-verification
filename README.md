@@ -51,17 +51,16 @@ Available in ./Data, including:
 ## Execution Screenshots
 
 ### 1. Successful Imports and GPU Detection
-![Imports and GPU](screenshots/1-imports.png)
+![Imports and GPU](1-imports.png)
 
 ### 2. Dataset Files
-![Dataset](screenshots/2-dataset.png)
+![Dataset](2-dataset.png)
 
 ### 3. Model Checkpoint Files
-![Checkpoint](screenshots/3-checkpoint.png)
+![Checkpoint](3-checkpoint.png)
 
 ### 4. Model Evaluation Progress
-![Evaluation](screenshots/4-evaluation.png)
-
+![Evaluation](4-evaluation.png)
 ## Results
 
 The project was successfully set up and executed in Google Colab using a Tesla T4 GPU. The required Python libraries, dataset, and pretrained model checkpoint were loaded successfully. The evaluation process was initiated, and the model began processing the TabFact dataset.
